@@ -6,6 +6,8 @@
 
 FROM php:8.0-fpm
 
+LABEL maintainer="Project <project@cryrc.it>"
+
 # Set Environment Variables
 ENV DEBIAN_FRONTEND noninteractive
 
